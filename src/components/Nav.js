@@ -118,7 +118,7 @@ class Nav extends Component {
           >
             
 
-            <NavLink
+            {/* <NavLink
               className="navbar-item"
               to="/app"
               activeStyle={{ color: '#ff6b42' }}
@@ -149,7 +149,39 @@ class Nav extends Component {
               activeStyle={{ color: '#ff6b42' }}
             >
               <span>My Music</span>
+            </NavLink> */}
+
+            {/* Dayster */}
+            <NavLink
+              className="navbar-item"
+              to="/app"
+              activeStyle={{ color: '#ff6b42' }}
+            >
+              <span>HOME</span>
             </NavLink>
+
+            <NavLink
+              className="navbar-item"
+              to="/app/new_releases"
+              activeStyle={{ color: '#ff6b42' }}
+            >
+              <span>Community</span>
+            </NavLink>
+            <NavLink
+              className="navbar-item"
+              to="/app/new_releases"
+              activeStyle={{ color: '#ff6b42' }}
+            >
+              <span>World</span>
+            </NavLink>
+            <NavLink
+              className="navbar-item"
+              to="/app/new_releases"
+              activeStyle={{ color: '#ff6b42' }}
+            >
+              <span>FeedBack</span>
+            </NavLink>
+
           </div>
 
           <div className="navbar-end">
